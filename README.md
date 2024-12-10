@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
@@ -80,7 +79,12 @@
 </head>
 <body>
     <header>
-        <img src="https://via.placeholder.com/150x40?text=CryptoSite" alt="Logo">
+header img {
+        height: 50px;
+            width: auto;
+           }
+    </header>
+
         <nav>
             <a href="#">Accueil</a>
             <a href="#">À propos</a>
