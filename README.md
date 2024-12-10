@@ -1,24 +1,26 @@
+<!DOCTYPE html>
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Site Crypto - Sécurisé</title>
+    <title>CryptoSite</title>
     <style>
         body {
             margin: 0;
             font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
+            background-color: #14151a;
+            color: #eaeaea;
         }
         header {
-            background-color: #1a1a1a;
+            background-color: #212121;
             padding: 10px 20px;
-            color: #fff;
             display: flex;
             justify-content: space-between;
             align-items: center;
         }
         header img {
-            height: 40px;
+            height: 50px;
+            width: auto;
         }
         nav {
             display: flex;
@@ -47,11 +49,12 @@
             font-size: 1.2em;
         }
         .form-container {
-            background: white;
+            background: #212121;
             padding: 20px;
-            margin: 20px auto;
+            margin: 50px auto;
             max-width: 400px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
         }
         input, button {
             width: 100%;
@@ -60,18 +63,19 @@
             font-size: 14px;
         }
         button {
-            background-color: #4CAF50;
-            color: white;
+            background-color: #f3ba2f;
+            color: #14151a;
             border: none;
             cursor: pointer;
+            border-radius: 5px;
         }
         button:hover {
-            background-color: #45a049;
+            background-color: #d69b25;
         }
         footer {
             text-align: center;
             padding: 20px;
-            background: #1a1a1a;
+            background: #212121;
             color: #fff;
             margin-top: 20px;
         }
@@ -79,12 +83,7 @@
 </head>
 <body>
     <header>
-header img {
-        height: 50px;
-            width: auto;
-           }
-    </header>
-
+        <img src="https://via.placeholder.com/150x40?text=CryptoSite" alt="Logo">
         <nav>
             <a href="#">Accueil</a>
             <a href="#">À propos</a>
